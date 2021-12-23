@@ -65,7 +65,7 @@ function onDelete(td) {
 }
 function validate() {
   isValid = true;
-  if (document.getElementById('namaLengkap').value == '') {
+  if (document.getElementById('daftarMahasiswa').value == '') {
     isValid = false;
     document.getElementById('namaLengkapValidationError').classList.remove('hide');
   } else {
